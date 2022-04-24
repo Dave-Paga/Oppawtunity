@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "521514451515",
+    "firebase_url": "https://oppawtunity-75d50-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "oppawtunity-75d50",
+    "storage_bucket": "oppawtunity-75d50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521514451515:android:893b23e82c1646d941121e",
+        "android_client_info": {
+          "package_name": "com.example.oppawtunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521514451515-87lpm288oq30r3i2ij1kk9i1n634i84g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfezYbbUhMcmXlGBNaVCW7MjYKdkjjzp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521514451515-87lpm288oq30r3i2ij1kk9i1n634i84g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

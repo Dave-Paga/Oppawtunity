@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="2dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/viewFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="3dp"
+            android:text="Full Name"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewUsername"
+            android:layout_width="70dp"
+            android:layout_height="17dp"
+            android:layout_below="@+id/viewFullName"
+            android:layout_marginStart="8dp"
+            android:text="Username"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/viewPhoneNo"
+            android:layout_width="70dp"
+            android:layout_height="17dp"
+            android:layout_below="@+id/viewUsername"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="8dp"
+            android:text="0999999999"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oppawtunity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Oppawtunity">
+        <activity
+            android:name=".qr_scanner"
+            android:exported="false" />
+        <activity
+            android:name=".qr_generator"
+            android:exported="false" />
+        <activity
+            android:name=".admin_editHistory"
+            android:exported="false" />
+        <activity
+            android:name=".admin_editPet"
+            android:exported="false" />
+        <activity
+            android:name=".admin_petDetails"
+            android:exported="false" />
+        <activity
+            android:name=".adminAddPet"
+            android:exported="false" />
+        <activity
+            android:name=".adminViewUserPets"
+            android:exported="false" />
+        <activity
+            android:name=".userViewPets"
+            android:exported="false" />
+        <activity
+            android:name=".admin_viewUsers"
+            android:exported="false" />
+        <activity
+            android:name=".admin_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".registrationpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

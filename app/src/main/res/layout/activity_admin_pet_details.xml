@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_petDetails"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <Button
+           android:id="@+id/deletePet"
+           android:layout_width="152dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/dVisitationsCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="258dp"
+           android:layout_marginTop="62dp"
+           android:text="Delete Pet" />
+
+       <Button
+           android:id="@+id/goBackFromPetDetails"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="21dp"
+           android:layout_marginTop="17dp"
+           android:text="Go Back" />
+
+       <Button
+           android:id="@+id/editPet"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="291dp"
+           android:layout_marginTop="18dp"
+           android:text="Edit Pet" />
+
+       <Button
+           android:id="@+id/generateQR"
+           android:layout_width="160dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="13dp"
+           android:layout_marginTop="225dp"
+           android:text="Generate QR" />
+
+       <ScrollView
+           android:id="@+id/dVaccinationCase"
+           android:layout_width="match_parent"
+           android:layout_height="400dp"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="0dp"
+           android:layout_marginTop="334dp"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+               <ListView
+                   android:id="@+id/dVaccination"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginStart="0dp"></ListView>
+           </LinearLayout>
+       </ScrollView>
+
+       <ScrollView
+           android:id="@+id/dSurgeriesCase"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/dVaccinationCase"
+           android:layout_marginStart="0dp"
+           android:layout_marginTop="76dp"
+           android:layout_width="match_parent"
+           android:layout_height="400dp"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+               <ListView
+                   android:id="@+id/dSurgeries"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginStart="0dp"></ListView>
+           </LinearLayout>
+       </ScrollView>
+
+       <ScrollView
+           android:id="@+id/dMedicationsCase"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/dSurgeriesCase"
+           android:layout_marginStart="0dp"
+           android:layout_marginTop="76dp"
+           android:layout_width="match_parent"
+           android:layout_height="400dp"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+               <ListView
+                   android:id="@+id/dMedications"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginStart="0dp"></ListView>
+           </LinearLayout>
+       </ScrollView>
+
+
+       <ScrollView
+           android:id="@+id/dVisitationsCase"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/dMedicationsCase"
+           android:layout_marginStart="0dp"
+           android:layout_marginTop="81dp"
+           android:layout_width="match_parent"
+           android:layout_height="400dp"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ListView
+                   android:id="@+id/dVisitations"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginStart="0dp"></ListView>
+           </LinearLayout>
+       </ScrollView>
+
+
+
+
+       <TextView
+           android:id="@+id/dPetName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="46dp"
+           android:layout_marginTop="97dp"
+           android:text="Pet Name" />
+
+       <TextView
+           android:id="@+id/dPetAge"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="47dp"
+           android:layout_marginTop="128dp"
+           android:text="Age" />
+
+       <TextView
+           android:id="@+id/dPetWeight"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="47dp"
+           android:layout_marginTop="158dp"
+           android:text="Weight" />
+
+       <TextView
+           android:id="@+id/dPetBreed"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="47dp"
+           android:layout_marginTop="194dp"
+           android:text="Breed" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="159dp"
+           android:layout_marginTop="308dp"
+           android:text="Vaccinations" />
+
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/dVaccinationCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="168dp"
+           android:layout_marginTop="44dp"
+           android:text="Surgeries" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/dMedicationsCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="189dp"
+           android:layout_marginTop="22dp"
+           android:text="Visitations" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/dSurgeriesCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="187dp"
+           android:layout_marginTop="38dp"
+           android:text="Medications" />
+
+       <ImageView
+           android:id="@+id/dPetIMG"
+           android:layout_width="198dp"
+           android:layout_height="190dp"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="188dp"
+           android:layout_marginTop="77dp"
+           android:adjustViewBounds="true"
+           android:scaleType="centerCrop"
+           tools:srcCompat="@tools:sample/avatars" />
+
+       <Button
+           android:id="@+id/addVaccination"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="290dp"
+           android:layout_marginTop="278dp"
+           android:text="Add Entry" />
+
+       <Button
+           android:id="@+id/addSurgeries"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/dVaccinationCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="290dp"
+           android:layout_marginTop="19dp"
+           android:text="Add Entry" />
+
+       <Button
+           android:id="@+id/addMedications"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/dSurgeriesCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="281dp"
+           android:layout_marginTop="16dp"
+           android:text="Add Entry" />
+
+       <Button
+           android:id="@+id/addVisitations"
+           android:layout_width="130dp"
+           android:layout_height="46dp"
+           android:layout_below="@+id/dMedicationsCase"
+           android:layout_alignParentStart="true"
+           android:layout_marginStart="281dp"
+           android:layout_marginTop="20dp"
+           android:text="Add Entry" />
+   </RelativeLayout>
+</ScrollView>
