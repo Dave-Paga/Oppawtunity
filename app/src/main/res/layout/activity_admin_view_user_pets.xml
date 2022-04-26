@@ -11,6 +11,20 @@
         android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="413dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bars_top_and_bottom"
+            android:text="OPPAWTUNITY"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signOutUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,8 +81,8 @@
             android:id="@+id/goBackFromViewUserPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="72dp"
             android:background="@drawable/pet_button"
             android:text="Go Back"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +94,7 @@
             android:layout_height="21dp"
             android:layout_marginStart="80dp"
             android:layout_marginTop="72dp"
-            android:text="Name:"
+            android:text="Name"
             android:textAlignment="center"
             android:textColor="@color/black"
             app:layout_constraintBottom_toTopOf="@+id/viewUserPetPhone"
@@ -94,7 +108,7 @@
             android:layout_height="21dp"
             android:layout_marginStart="52dp"
             android:layout_marginTop="172dp"
-            android:text="Phone:"
+            android:text="Phone"
             android:textAlignment="center"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@+id/textView10"
