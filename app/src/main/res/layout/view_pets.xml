@@ -24,7 +24,8 @@
             android:background="@color/white"
             android:backgroundTint="@color/white"
             android:padding="3dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            />
 
         <TextView
             android:id="@+id/viewPetName"
