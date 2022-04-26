@@ -7,6 +7,18 @@
     tools:context=".registrationpage">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="413dp"
+        android:layout_height="89dp"
+        android:background="@drawable/bars_top_and_bottom"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="313dp"
         android:layout_height="494dp"
@@ -150,12 +162,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.615" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         android:layout_width="413dp"
         android:layout_height="89dp"
         android:layout_marginBottom="32dp"
+        android:background="@drawable/bars_top_and_bottom"
         android:text="OPPAWTUNITY"
+        android:textColor="@color/white"
+        android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
