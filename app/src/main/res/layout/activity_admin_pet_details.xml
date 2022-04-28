@@ -272,7 +272,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="131dp"
-            android:layout_marginTop="274dp"
+            android:layout_marginTop="279dp"
             android:background="@drawable/pet_button"
             android:text="Add Entry" />
 
