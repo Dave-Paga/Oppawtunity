@@ -24,12 +24,17 @@
         <entry key="..\:/Users/Dave/AndroidStudioProjects/Oppawtunity/app/src/main/res/layout/view_history.xml" value="0.3534971644612476" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/Oppawtunity/app/src/main/res/layout/view_pets.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/Oppawtunity/app/src/main/res/layout/view_user_card.xml" value="0.2028985507246377" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Oppawtunity/app/src/main/res/layout/activity_user_view_pets.xml" value="0.22282608695652173" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Oppawtunity/app/src/main/res/layout/view_user_card.xml" value="0.2" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/drawable/bars_top_and_bottom.xml" value="0.2775" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/drawable/image_border.xml" value="0.2775" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/drawable/pet_button.xml" value="0.2775" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/drawable/transparent_button.xml" value="0.2775" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_admin_add_pet.xml" value="0.20817843866171004" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_admin_edit_history.xml" value="0.25" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
