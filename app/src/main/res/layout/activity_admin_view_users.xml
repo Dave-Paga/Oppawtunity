@@ -12,11 +12,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/viewUsersBack"
             android:layout_width="109dp"
             android:layout_height="wrap_content"
-            android:text="Go Back" />
+            android:text="Go Back"
+            android:background="@drawable/pet_button"
+            />
 
         <ListView
             android:id="@+id/viewUsers"
