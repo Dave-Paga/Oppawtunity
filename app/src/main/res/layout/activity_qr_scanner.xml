@@ -20,7 +20,7 @@
         app:flashButtonColor="@android:color/white"
         app:maskColor="#7A000000" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/goBackFromScanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,6 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="-1dp"
+        android:background="@drawable/pet_button"
         android:text="Go Back"
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="33dp" />

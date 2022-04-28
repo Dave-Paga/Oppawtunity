@@ -16,14 +16,13 @@
             android:id="@+id/viewUsersBack"
             android:layout_width="109dp"
             android:layout_height="wrap_content"
-            android:text="Go Back"
             android:background="@drawable/pet_button"
-            />
+            android:text="Go Back" />
 
         <ListView
             android:id="@+id/viewUsers"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></ListView>
+            android:layout_height="130dp"></ListView>
 
     </LinearLayout>
 
