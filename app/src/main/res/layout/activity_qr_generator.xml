@@ -7,16 +7,24 @@
     android:orientation="vertical"
     tools:context=".qr_generator">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/goBackFromQR"
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
-        android:background="@drawable/pet_button"
-        android:text="Go Back" />
-
     <ImageView
         android:id="@+id/qrIMAGE"
         android:layout_width="match_parent"
-        android:layout_height="369dp"
+        android:layout_height="370dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="50dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/goBackFromQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/pet_button"
+        android:text="Go Back" />
 </LinearLayout>
