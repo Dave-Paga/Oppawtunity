@@ -30,7 +30,11 @@
         <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/drawable/transparent_button.xml" value="0.2775" />
         <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_admin_add_pet.xml" value="0.20817843866171004" />
         <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_admin_edit_history.xml" value="0.25" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_admin_edit_pet.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_admin_main_page.xml" value="0.21455938697318008" />
         <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/view_history.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/dmqui/StudioProjects/Oppawtunity/app/src/main/res/layout/view_user_card.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>
