@@ -54,21 +54,22 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/goBackFromEditPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/pet_button"
             android:text="Go Back"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.051"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/editPetUploadIMG"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,7 +83,9 @@
             app:layout_constraintHorizontal_bias="0.525"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.879" />
+            app:layout_constraintVertical_bias="0.879"
+            android:background="@drawable/pet_button"
+            />
 
         <TextView
             android:id="@+id/textView111"
@@ -200,7 +203,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.381" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/editPetBTN"
             android:layout_width="127dp"
             android:layout_height="wrap_content"
@@ -212,7 +215,9 @@
             android:layout_marginEnd="19dp"
             android:text="Edit Pet"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/pet_button"
+            />
 
         <ImageView
             android:id="@+id/editPetIMGView"
@@ -225,6 +230,16 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             tools:srcCompat="@tools:sample/avatars" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="OPPAWTUNITY"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:background="@drawable/bars_top_and_bottom"
+            />
 
     </RelativeLayout>
 
