@@ -232,7 +232,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="168dp"
             android:layout_marginTop="44dp"
-            android:text="Surgeries" />
+            android:text="Surgeries"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -241,7 +242,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="189dp"
             android:layout_marginTop="22dp"
-            android:text="Visitations" />
+            android:text="Visitations"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -250,7 +252,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="187dp"
             android:layout_marginTop="38dp"
-            android:text="Medications" />
+            android:text="Medications"
+            android:textColor="@color/black"/>
 
         <ImageView
             android:id="@+id/dPetIMG"
@@ -271,8 +274,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="131dp"
-            android:layout_marginTop="279dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="316dp"
             android:background="@drawable/pet_button"
             android:text="Add Entry" />
 
@@ -282,30 +285,30 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/dVaccinationCase"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="290dp"
-            android:layout_marginTop="19dp"
+            android:layout_marginStart="299dp"
+            android:layout_marginTop="32dp"
             android:background="@drawable/pet_button"
             android:text="Add Entry" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addMedications"
-            android:layout_width="130dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/dSurgeriesCase"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="281dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="299dp"
+            android:layout_marginTop="23dp"
             android:background="@drawable/pet_button"
             android:text="Add Entry" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addVisitations"
-            android:layout_width="130dp"
-            android:layout_height="46dp"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/dMedicationsCase"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="281dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/pet_button"
             android:text="Add Entry" />
 

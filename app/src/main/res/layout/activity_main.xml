@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="test123"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.268"
@@ -96,7 +96,8 @@
         android:background="@drawable/bars_top_and_bottom"
         tools:layout_editor_absoluteX="-7dp"
         tools:layout_editor_absoluteY="667dp"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
@@ -108,6 +109,7 @@
         android:background="@drawable/bars_top_and_bottom"
         tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="-1dp"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
